@@ -113,6 +113,8 @@ else
     TEMP="$SUBDOMAIN"
     TEMP+=".$ZONE"
     ZONE=$TEMP
+  else
+    ZONE=$DOMAIN
   fi
 
   # Quick and dirty input check
